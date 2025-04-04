@@ -3,7 +3,7 @@ import Redis from "ioredis";
 import prismaClient from "./prisma";
 import { produceMessage } from "./kafka";
 
-const pub = new Redis({
+const pub = new Redis({ //redis database connection details
   host: "",
   port: "",
   username: "",
