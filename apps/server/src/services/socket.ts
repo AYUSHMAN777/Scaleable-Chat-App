@@ -4,17 +4,17 @@ import prismaClient from "./prisma";
 import { produceMessage } from "./kafka";
 
 const pub = new Redis({
-  host: "redis-18364.c98.us-east-1-4.ec2.redns.redis-cloud.com",
+  host: "",
   port: 18364,
-  username: "default",
-  password: "XBBdJEiYZnCYDX9kZknpIr0FFGUaktvD",
+  username: "",
+  password: "",
 });
 
 const sub = new Redis({
-  host: "redis-18364.c98.us-east-1-4.ec2.redns.redis-cloud.com",
-  port: 18364,
-  username: "default",
-  password: "XBBdJEiYZnCYDX9kZknpIr0FFGUaktvD",
+  host: "",
+  port: "",
+  username: "",
+  password: "",
 });
 
 class SocketService {
