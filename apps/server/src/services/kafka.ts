@@ -9,9 +9,9 @@ const kafka = new Kafka({
   ssl: {
     ca: [fs.readFileSync(path.resolve("./ca.pem"), "utf-8")],
   },
-  sasl: {
+  sasl: {            //aiven kafka service details
     username: "avnadmin",
-    password: "AVNS_Z0bAulL0qTFhj5303dl",
+    password: "",
     mechanism: "plain",
   },
 });
