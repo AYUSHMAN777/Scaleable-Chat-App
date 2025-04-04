@@ -5,7 +5,7 @@ import { produceMessage } from "./kafka";
 
 const pub = new Redis({
   host: "",
-  port: 18364,
+  port: "",
   username: "",
   password: "",
 });
